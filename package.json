@@ -8,8 +8,7 @@
     "prod": "tsx watch ./build/server.js",
     "test": "vitest",
     "knex": "knex",
-    "build": "tsup src --out-dir build",
-    "build:prod": "npm run knex -- migrate:latest && npm run build"
+    "build": "tsup src --out-dir build"
   },
   "keywords": [],
   "author": "",
