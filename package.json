@@ -7,8 +7,8 @@
     "node": ">= 16"
   },
   "scripts": {
-    "dev": "node ./src/server.ts",
-    "prod": "tsx watch ./build/server.js",
+    "dev": "tsx watch ./src/server.ts",
+    "prod": "node ./build/server.js",
     "test": "vitest",
     "knex": "knex",
     "build": "tsup src --out-dir build"
