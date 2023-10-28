@@ -9,7 +9,7 @@
     "test": "vitest",
     "knex": "knex",
     "build": "tsup src --out-dir build",
-    "build:prod": "knex -- migrate:latest && tsup src --out-dir build"
+    "build:prod": "npm run knex -- migrate:latest && npm run build"
   },
   "keywords": [],
   "author": "",
