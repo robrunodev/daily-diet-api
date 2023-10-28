@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": ">= 16"
+  },
   "scripts": {
     "dev": "tsx watch ./src/server.ts",
     "prod": "tsx watch ./build/server.js",
