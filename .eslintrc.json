@@ -1,0 +1,24 @@
+{
+    "extends": [
+        "standard-with-typescript",
+        "@rocketseat/eslint-config/node",
+        "eslint-config-prettier"
+    ],
+    "plugins": [
+        "eslint-plugin-prettier"
+    ],
+    "rules": {
+        "prettier/prettier": [
+            "error",
+            {
+                "printWidth": 80,
+                "tabWidth": 2,
+                "singleQuote": true,
+                "trailingComma": "all",
+                "arrowParens": "always",
+                "semi": false,
+                "endOfLine": "auto"
+            }
+        ]
+    }
+}
